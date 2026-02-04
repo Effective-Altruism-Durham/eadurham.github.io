@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://durhamaisafety.github.io',
+  site: 'https://effective-altruism-durham.github.io',
   integrations: [tailwind(), sitemap()],
   output: 'static',
 });
